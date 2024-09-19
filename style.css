@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+}
+
+.search-cart input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.cart-icon img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+#hero {
+    background: #666;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#featured-products {
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #28a745;
+}
+
+.btn {
+    background: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer-links, .social-media, .contact-info {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-links h3, .social-media h3, .contact-info h3 {
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links a, .social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background: #444;
+}
+
